@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* eski orqa fon rangi */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* eski orqa fon rangi */
+}
+
+.profile {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.profile p, .profile h5 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.profile p{
+  color: #C4F82A;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333; /* yangi orqa fon rangi */
+    padding: 20px; /* qoshimcha padding */
+    border-radius: 10px; /* qoshimcha border-radius */
+}
+
+.links a {
+    display: flex;
+    justify-content:center;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    background-color: #333;
+    text-align: center;
+    line-height: 1;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: #555;
+}
